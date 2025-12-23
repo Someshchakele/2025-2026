@@ -119,7 +119,7 @@
 
 //     console.log(arr)
 //     let largest = arr[0];
-    
+
 //     for(let i = 0; i < arr.length; i++){
 //         if(arr[i] > largest){
 //             largest = arr[i];
@@ -164,6 +164,23 @@
 // }
 // console.log(isPrime(0)) // true
 
-                           
+// Reverse  a string
+
+// const st =  "javascript";
+
+// console.log(st.split("").reverse().join(""))
+
+// palindrome
+
+// const str = "madam";
+
+// function Palindome(str) {
+//     const reserve = str.split("").reverse().join("");
+//     return str === reserve;
+// }
+// console.log(Palindome(str)); 
+
+
+
 
 
