@@ -180,6 +180,37 @@
 // }
 // console.log(Palindome(str)); 
 
+// Count vowels in a string
+
+// function vow(str){
+//     const vows = "aeiouAEIOU";
+//     let count = 0;
+//     for(let char of str){
+//         if(vows.includes(char)){
+//             count++
+//         }
+//     }
+//     console.log(`Total vowels in ${str} is ${count}`)
+// }
+
+// vow('Hello Javascript')
+
+// Count consonants in a string
+
+// function conso(str){
+//     const vowels = "aeiouAEIOU";
+//     let count = 0;
+//     for(let char of str){
+//         if(!vowels.includes(char) && char !== " "){
+//             console.log(char)
+//             count++
+//         }
+
+//     }
+//     console.log(`Total consonants in ${str} is ${count}`)
+// }
+// conso("Hello Javascript")
+
 
 
 
