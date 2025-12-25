@@ -212,6 +212,18 @@
 // conso("Hello Javascript")
 
 
+// Find the length of a string without using
+// function lengths(str) {
+//     let length = 0
+//     for (const vari of str) {
+//         length += 1
+//     }
+//     console.log(length)
+
+// }
+// lengths("javacsript")
+
+
 
 
 
