@@ -223,6 +223,8 @@
 // }
 // lengths("javacsript")
 
+// console.log(null == undefined);
+
 
 
 
