@@ -1,7 +1,6 @@
 // Allow only 3 attempts to enter correct password
 // If user gets it right early, stop. If not → “Account locked”
 
-
 // let attempt = 0;
 // let sahiPassword = "somesh";
 // let password = prompt('apna password batana');
@@ -24,7 +23,7 @@
 // Loop until "stop" is typed. Count "yes".
 
 // let word = prompt("word bolo");
-// let counter = 0 ; 
+// let counter = 0 ;
 
 // while(word !== "stop"){
 //     if(word === "yes") counter++;
@@ -49,7 +48,7 @@
 // for (let i = 1; i < 31; i++){
 //     if(i % 2 !== 0){
 //         console.log(i)
-//         countSum+=i 
+//         countSum+=i
 //     }
 // }
 // console.log(countSum);
@@ -91,7 +90,6 @@
 // }
 // console.log(counter)
 
-
 // Write a Program to reverse a string in JavaScript.
 
 // function reverse(str){
@@ -101,7 +99,6 @@
 // }
 // console.log(reverse("hello"))
 
-
 //  Write a Program to check whether a string is a palindrome string.
 
 // function palindrome(str){
@@ -109,7 +106,7 @@
 //     return str === reserved
 // }
 
-// console.log(palindrome("madam")) 
+// console.log(palindrome("madam"))
 
 // Find the largest number in an array in JavaScript.
 
@@ -178,7 +175,7 @@
 //     const reserve = str.split("").reverse().join("");
 //     return str === reserve;
 // }
-// console.log(Palindome(str)); 
+// console.log(Palindome(str));
 
 // Count vowels in a string
 
@@ -211,7 +208,6 @@
 // }
 // conso("Hello Javascript")
 
-
 // Find the length of a string without using
 // function lengths(str) {
 //     let length = 0
@@ -225,7 +221,39 @@
 
 // console.log(null == undefined);
 
+// globalThis.name = "rahul";
 
+// const person = {
+//   name: "Somesh",
+//   normalGreet: function () {
+//     console.log("NormalGreet", this.name); //This refers to person object
+//   },
 
+//   arrowGreet: () => {
+//     console.log("ArrowGreet", this.name); // this will refer to outside object
+//   },
 
+//   greet: function () {
+//     console.log("Regular Function", this.name);
+
+//     (function () {
+//       console.log(`ThankYou ${this.name}`);
+//     })();
+
+//     const greetInEnglish = function () {
+//       console.log(`Hello ${this.name}`);
+//     };
+
+//     const greetInHindi = () => {
+//       console.log(`Namaskar ${this.name}`); // this will refer outside the greet object
+//     };
+
+//     greetInEnglish();
+//     greetInHindi();
+//   },
+// };
+
+// person.normalGreet();
+// person.arrowGreet();
+// person.greet();
 
