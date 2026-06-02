@@ -10,7 +10,7 @@
 //         a++;
 //         console.log(a);
 //      }
-//      console.log(a);
+//      console.log(a);  // 31 because var is function scoped not if scoped
 // }
 // fn();
 // console.log(a);
@@ -32,7 +32,7 @@
 // var b = "a";
 
 // console.log(obj[b]);  // a is assigned to b --> hello world
-// console.log(obj['b']);  // 42
+// console.log(obj['b']);  // 42 'b' is a direct string key
 
 // // o/p=> hello world
 //          42
@@ -42,11 +42,11 @@
 // console.log(1);
 
 // setTimeout(()=>{
-//    console.log(2);
+//    console.log(2); // goes to callback queue
 // },1000)
 
 // setTimeout(()=>{
-//    console.log(3);
+//    console.log(3); // goes to callback queue
 // },0)
 
 // console.log(4);
