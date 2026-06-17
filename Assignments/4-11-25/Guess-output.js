@@ -128,3 +128,48 @@
 // 2
 
 // ---------------------------------------------------------------------------------------------------------------
+
+// const arr = ["one","two","one","one","two","three"]
+
+// const count = {}
+
+// arr.forEach(ele => {
+//     count[ele] = (count[ele] || 0) + 1;
+// });
+// console.log(count)
+
+// Steps-->
+// First iteration ("one")
+// count["one"] = (undefined || 0) + 1 = 1
+// Second ("two")
+// count["two"] = (undefined || 0) + 1 = 1
+// Third ("one")
+// count["one"] = (1 || 0) + 1 = 2
+// Fourth ("one")
+// count["one"] = 3
+// Fifth ("two")
+// count["two"] = 2
+// Sixth ("three")
+// count["three"] = 1
+
+// o/p
+// {one: 3, two: 2, three: 1}
+
+// -----------------------------------------------------------------------------------------------------------
+
+// const name = "naman";
+// const lower = name.toLowerCase();
+// const strSplit = lower.split('');
+// const strReverse = strSplit.reverse();
+// const strJoin = strReverse.join('');
+
+// if(strJoin == lower){
+//     alert("palindrome")
+// }
+// else{
+//     alert("not palindrome")
+// }
+
+// o/p  ; palindrome
+
+// -------------------------------------------------------------------------------------------------------------
