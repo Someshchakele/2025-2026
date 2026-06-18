@@ -173,3 +173,42 @@
 // o/p  ; palindrome
 
 // -------------------------------------------------------------------------------------------------------------
+//  Different ways to empt an array
+// var array = ["a","b","c","d"];
+// // #1
+// array = [];
+// // #2
+// array.length = 0;
+// // #3
+// array.splice(0, array.length)
+// // #4
+// while (array.length){
+//     array.pop()
+// }
+
+//--------------------------------------------------------------------------------------------------------------
+
+// var userName = "ABC";
+
+// function b(){
+//     setTimeout(print,0); 
+//     console.log(userName); //2) It has its own var and it is hoisted so undefined
+//     var userName = "MNO"; 
+// }
+
+// console.log(userName); //1) ABC
+
+// function print(){
+//     console.log(userName); //3) It does not have its var so it will look global and it will print ABC
+// }
+
+// b();
+
+// o/p
+// ABC
+// undefined
+// ABC
+
+//--------------------------------------------------------------------------------------------------------------
+
+
